@@ -578,6 +578,7 @@ export default class Wallet extends React.Component<WalletProps, WalletState> {
         }
 
         if (
+            false &&
             cashuLightningAddress.enabled &&
             BackendUtils.supportsCashu() &&
             !NodeInfoStore.testnet

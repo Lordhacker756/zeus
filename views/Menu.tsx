@@ -483,7 +483,7 @@ export default class Menu extends React.Component<MenuProps, MenuState> {
                                     </View>
                                 </TouchableOpacity>
 
-                                {selectedNode &&
+                                {false && selectedNode &&
                                     BackendUtils.supportsCashu() &&
                                     settings?.ecash?.enableCashu &&
                                     !NodeInfoStore.testnet && (
